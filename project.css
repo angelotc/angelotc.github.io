@@ -1,0 +1,70 @@
+ td{
+    background-color: black;
+    height:300px;
+    width: 150px;
+    border: 3px solid white;     
+}
+
+head{
+    background-color: white;
+}
+
+body{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+tr{
+    font-family: Arial, Helvetica, sans-serif
+}
+.btn {
+    
+    margin-bottom: 3px;
+}
+.art{
+    margin:auto 
+} 
+
+#one{
+    background-color: #247BA0 ;
+    text-align: right;
+    font-color: white;
+   
+}
+
+#two{
+    background-color: #70C1B3;
+    text-align: center;
+}
+
+#three{
+    background-color: #B2DBBF;
+    text-align: center;
+}
+
+#four{
+    background-color: #F3FFBD;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#five{
+    background-color: #FF1654;
+    text-align: center;
+    width: 200px;
+    padding-top: 70px;
+}
+
+
+
+.contact {
+    margin-left: 25%;
+    padding: 60px 50px 75px 100px;
+}
+
+
+
