@@ -1,7 +1,6 @@
  td{
     background-color: black;
-    height:300px;
-    width: 150px;
+
     border: 3px solid white;     
 }
 
@@ -61,10 +60,49 @@ tr{
 
 .contact {
     margin-left: 25%;
-    padding: 60px 50px 75px 100px;
+    padding-top: 5%;
 }
 
 .links {
     padding-top: 10px;
+}
+
+* {box-sizing: border-box;}
+
+.container{
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+ 
+}
+
+.img-comp-img img {
+  display: block;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+li {
+    list-style-type: none;
 }
 
