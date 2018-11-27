@@ -2,6 +2,8 @@
     background-color: black;
 
     border: 3px solid white;     
+        width: 200px;
+    height: 600px;
 }
 
 head{
